@@ -1,0 +1,161 @@
+body {
+    max-width: 1160px;
+    font: 1em normal Arial, sans-serif;
+    color: #111111;
+}
+/* rules for the header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 10px;
+}
+
+#leftHeader img{
+    width: 140px;
+    height: 100px
+}
+
+/* rules for the center header */
+#midHeader {
+    display: flex;
+    flex-direction: row;
+    margin-top: -30px;
+}
+#searchBoxForm {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+#searchBox {
+    height: 30px;
+    width: 400px;
+    align-content: center;
+}
+#searchIcon {
+    width: 40px;
+    height: 40px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.dropdownSelect {
+    width: 189px;
+    padding: 5px;
+    background-color: #0e345a;
+    color: white;
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+    font-family: Georgia, "Palatino Linotype", serif;
+}
+
+.dropdownContent {
+    display: none;
+    position: absolute;
+    min-width: 200px;
+    padding-top: 5px;
+    z-index: 1;
+    border-radius: 5px;
+    background-color: #0e345a;
+    text-align: center;
+    padding-bottom: 3px;
+}
+
+.dropdown:hover .dropdownContent {
+    display: block;
+}
+
+.dropdownContent a {
+    color: white;
+    text-decoration: none;
+    font-family: Georgia, "Palatino Linotype", serif;
+}
+
+.dropdownContent a:hover {
+    color: #00aacc;
+    text-decoration: none;
+}
+
+/* rules for the right header */
+
+#rightHeader {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+#cartIcon img {
+    width: 50px;
+    height: 50px;
+}
+
+#cartCount{
+    width: 150px;
+    margin: 10px 0 0 10px;
+    font-family: Georgia, "Palatino Linotype", serif;
+}
+
+#loginButton {
+    background-color: #0e345a;
+    width: 70px;
+    height: 30px;
+    margin: 10px 10px 0 0;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 8px;
+}
+
+#loginButton a{
+    color: white;
+    text-decoration: none;
+    font-family: Georgia, "Palatino Linotype", serif;
+}
+#loginButton a:hover {
+    color: #00aacc;
+    text-decoration: none;
+}
+
+/* rules for the footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid darkblue;
+    margin-left: 10px;
+    padding: 10px 0;
+    font-size: 0.8em;
+}
+
+#footerLeft {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0 0 10px;
+    width: 300px;
+    font-family: Georgia, "Palatino Linotype", serif;
+    font-size: 1.1em;
+}
+
+#footerLeft a{
+    padding-top: 15px;
+    text-decoration: none;
+    color: #0e345a;
+}
+
+#footerLeft a:hover {
+    color: #00aacc;
+    text-decoration: underline;
+}
+
+#footerRight {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    width: 200px;
+    padding: 10px;
+}
+
+

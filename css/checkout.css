@@ -1,0 +1,88 @@
+/* Styles only used on the checkout page */
+
+/* Styles used for top section that contains page heading */
+
+#topSection {
+    max-width: 1400px;
+    padding: 30px 190px 30px 140px;
+}
+
+/* Styles used for bottom section that contains Customer form and Checkout summary */
+
+#bottomSection {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1400px;
+    padding-left: 70px;
+}
+
+/* Styles used for Customer Input Form */
+
+#formTitleText {
+    max-width: 465px;
+}
+
+.error {
+    margin: 0 10px;
+    color: red;
+    font-size: smaller;
+}
+
+#checkoutForm {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 10px;
+    margin: 20px 0 50px 0;
+    background-color: aliceblue;
+    padding: 30px;
+    align-items: center;
+    width: auto;
+}
+
+#submitButton {
+    height: 18px;
+    border-radius: 8px;
+    border: none;
+    margin: 6px 0 0 4px;
+    text-align: center;
+    background-color: #0e345a;
+    color: white;
+    font-size: 0.875em;
+    text-decoration: none;
+}
+
+/* Styles used for Checkout summary */
+
+ul {
+    list-style-type: square;
+    line-height: 150%;
+}
+
+#checkoutSummary {
+    margin: 55px 0;
+}
+
+#checkoutTotals {
+    margin: 20px 0 0 38px;
+    background-color: aliceblue;
+    padding: 20px 0 20px 30px;
+    border-radius: 4px;
+    width: 275px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#checkoutTotals div {
+    text-align: right;
+    padding: 5px;
+
+}
+
+.total {
+    border-top: 1px solid black
+}
+
+h2 {
+    margin-left: 140px;
+}
+

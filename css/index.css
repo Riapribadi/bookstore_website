@@ -1,0 +1,97 @@
+.welcomeDisplay {
+    position: relative;
+    text-align: left;
+    color: white;
+    max-width: 750px;
+}
+
+.welcomeDisplay img{
+    width: 1160px;
+    margin-left: 10px;
+}
+
+.centerLeft {
+    font-weight: bold;
+    font-family: Garamond, serif;
+    position: absolute;
+    bottom: 80px;
+    left: 30px;
+    font-size: 100px;
+    word-break: keep-all;
+}
+
+h1 {
+    text-align: center;
+    color: #0e345a;
+    font-family: Georgia, "Palatino Linotype", serif;
+    font-size: 17px;
+    padding-top: 30px;
+}
+
+#mainTop {
+    display:flex;
+    justify-content: space-around;
+}
+
+#cuisineCategory {
+    text-align: center;
+    color: #0e345a;
+    font-family: Georgia, "Palatino Linotype", serif;
+    font-size: 35px;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    text-align: center;
+}
+
+h2 a {
+    text-align: center;
+    text-decoration: none;
+    color: #0e345a;
+    font-family: Georgia, "Palatino Linotype", serif;
+    font-size: 17px;
+    padding-top: -20px;
+}
+
+h2 a:hover {
+    color: #00aacc;
+    text-decoration: none;
+}
+
+#mainBottom {
+    display: flex;
+    background-color: #0e345a;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    margin-left: 10px;
+    height: 250px;
+    margin-bottom: 10px;
+}
+
+#welcomeMessage {
+    color: white;
+    font-size: 40px;
+    font-family: Georgia, "Palatino Linotype", serif;
+    word-break: break-all;
+    align-content: center;
+    padding: 60px;
+    overflow-wrap: break-word;
+    width: 400px;
+    text-align: center;
+}
+
+#firstLine {
+    color: white;
+    font-size:20px;
+    font-family: Georgia, "Palatino Linotype", serif;
+    word-break: keep-all;
+    align-content: center;
+    padding: 70px;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 30px;
+}
+

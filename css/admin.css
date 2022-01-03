@@ -1,0 +1,40 @@
+#outButton a{
+    text-decoration: none;
+    background-color: #0e345a;
+    color: beige;
+    font-weight: bold;
+    border: 1px solid black;
+
+}
+
+#outButton {
+    padding-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 990px;
+}
+
+.gridHeader{
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#booksGrid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.gridText {
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    padding: 5px;
+}
+
+h1 {
+    color: #0e345a;
+}

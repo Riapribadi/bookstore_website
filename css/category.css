@@ -1,0 +1,86 @@
+header {
+
+}
+
+.mainPage {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    min-width: 320px;
+    max-width: 1220px;
+}
+
+.books {
+    display:flex;
+    align-items: center;
+    height: 220px;
+    width: 400px;
+    background-color: #0e345a;
+    border: 1px solid white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 10px 0 0 10px;
+    border-radius: 5px;
+    flex-grow: 1;
+}
+
+.books img{
+    flex-grow:0;
+    flex-shrink:0;
+}
+
+.books li {
+    color: white;
+    font-family: Georgia
+    font-size: 18px;
+    text-align: left;
+    padding-right: 20px;
+    margin: 10px;
+}
+
+.books ul{
+    list-style-type: none;
+}
+
+.books h3 {
+    color: white;
+    font-family: Georgia, "Palatino Linotype", serif;
+    font-weight: bold;
+}
+
+.books h5 {
+    color: white;
+    font-family: Georgia, "Palatino Linotype", serif;
+    font-size: 12px;
+}
+
+.books h4 {
+    color: white;
+    font-family: Georgia, "Palatino Linotype", serif;
+    font-size: 15px;
+}
+
+.button {
+    background-color: honeydew;
+    color: #0e345a;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 8px;
+    width: 75px;
+    height: 20px;
+    text-align: center;
+    padding-top: 3px;
+    padding-left: 15px;
+}
+
+.button p {
+    color: #0e345a;
+    font-size: 12px;
+    text-align: center;
+    margin-top: -1px;
+}
+
+.button a {
+    text-decoration: none;
+}
